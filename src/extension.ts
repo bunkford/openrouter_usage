@@ -30,7 +30,7 @@ export function activate(context: vscode.ExtensionContext) {
 	// Register open settings command
 	context.subscriptions.push(
 		vscode.commands.registerCommand('openrouter-usage.openSettings', () => {
-			vscode.commands.executeCommand('workbench.action.openSettings', '@ext:bunkf.openrouter-usage');
+			vscode.commands.executeCommand('workbench.action.openSettings', '@ext:bunkford.openrouter-usage');
 		})
 	);
 

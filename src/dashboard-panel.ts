@@ -45,7 +45,7 @@ export class DashboardPanel {
           await store.refresh(msg.date);
           break;
         case 'openSettings':
-          vscode.commands.executeCommand('workbench.action.openSettings', '@ext:bunkf.openrouter-usage');
+          vscode.commands.executeCommand('workbench.action.openSettings', '@ext:bunkford.openrouter-usage');
           break;
       }
     }, null, this.disposables);
