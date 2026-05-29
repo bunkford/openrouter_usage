@@ -38,9 +38,3 @@ This extension contributes the following settings:
 
 * `OpenRouter Usage: Refresh` - Manually refresh usage data
 * `OpenRouter Usage: Show OpenRouter Usage Details` - Open detailed usage view
-
-## Release Notes
-
-### 0.0.1
-
-Initial release of OpenRouter Usage extension.
