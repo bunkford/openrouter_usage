@@ -123,7 +123,7 @@ export class StatusBarManager implements vscode.Disposable {
       const action = isNoKey ? 'Open Settings' : undefined;
       vscode.window.showErrorMessage(`OpenRouter: ${title} — ${detail}`, ...(action ? [action] : [])).then(choice => {
         if (choice === 'Open Settings') {
-          vscode.commands.executeCommand('workbench.action.openSettings', '@ext:bunkf.openrouter-usage');
+          vscode.commands.executeCommand('workbench.action.openSettings', '@ext:bunkford.openrouter-usage');
         }
       });
     }
