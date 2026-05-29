@@ -2,8 +2,12 @@
   "name": "openrouter-usage",
   "displayName": "OpenRouter Usage",
   "description": "Display OpenRouter API usage in the status bar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "bunkford",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bunkford/openrouter_usage"
+  },
   "icon": "icon.png",
   "engines": {
     "vscode": "^1.120.0"
